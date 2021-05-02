@@ -1,0 +1,5 @@
+*.tar.gz
+.swiftpm
+out
+GoogleAnalytics.framework/GoogleAnalytics
+GoogleAnalytics.framework/Headers/*.h

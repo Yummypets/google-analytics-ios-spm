@@ -1,0 +1,10 @@
+framework module GoogleAnalytics {
+umbrella header "GAI-Umbrella.h"
+export *
+module * { export * }
+  link framework "Foundation"
+  link framework "CoreData"
+  link framework "SystemConfiguration"
+  link "sqlite3"
+  link "z"
+}
